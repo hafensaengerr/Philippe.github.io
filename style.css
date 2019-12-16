@@ -1,0 +1,49 @@
+html, body {
+    background-color: rgb(8, 6, 6);
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+        
+}
+body {
+    font-family: sans-serif;
+}
+
+#hintergrund {
+    
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
+.scrollbereich {
+    
+    
+    position: fixed;
+    background-color : rgb(65, 61, 61);
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    
+    margin: 25px auto 25px auto;
+    
+
+
+    /*Kürzere Schreibweise für
+     einen gleichmäßigen Abstand für alle Seiten (statt top, bottom, right etc) */
+
+    
+}
+
+p {
+    font-style: oblique;
+}
+#inhalt {
+    padding:20px 100px 30px 200px;
+    z-index:2;
+  }
+
